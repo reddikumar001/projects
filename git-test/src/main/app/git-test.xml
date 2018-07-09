@@ -21,4 +21,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
         <file:outbound-endpoint path="/UMG/ES/OUTBOUND" responseTimeout="10000" doc:name="File"/>
         <logger message="After file outbound" level="INFO" doc:name="Logger"/>
     </flow>
+    <flow name="git-testFlow3" doc:name="git-testFlow3">
+        <logger level="INFO" doc:name="Logger"/>
+    </flow>
 </mule>
