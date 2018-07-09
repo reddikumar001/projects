@@ -25,5 +25,6 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
         <jms:inbound-endpoint queue="test1" connector-ref="Active_MQ" doc:name="JMS"/>
         <logger level="INFO" doc:name="Logger"/>
         <logger message="added another logger" level="INFO" doc:name="Logger"/>
+        <jms:outbound-endpoint queue="test2" connector-ref="Active_MQ" doc:name="JMS"/>
     </flow>
 </mule>
